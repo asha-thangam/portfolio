@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&display=swap');body{
+    padding: 0;
+    margin: 0;
+}
+#about-me{
+  background: url(C:\portfolio\portfolio\src\images\wbg.jpg)no-repeat;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top:50px;
+    margin-bottom: 70px;
+}
+.title h1{ 
+    font-size: 70px;
+    font-family:'Agdasima', sans-serif;
+}
+.title h3{ 
+    font-size: 40px;
+    font-family: 'Agdasima', sans-serif;
+}
+.personal-info {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .personal-info .img {
+    margin-right: 40px; /* Adjust the margin as per your preference */
+  }
+  
+  .personal-info .other-details {
+    display: flex;
+    flex-direction: row;
+    gap: 40px; /* Adjust the gap between the lists as per your preference */
+  }
+  
+  
+  .list1,
+  .img{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+     /* Adjust the gap between list items as per your preference */
+  }
+  
+  .list1 li,
+  .list2 li {
+    display: flex;
+    align-items: center;
+  }
+  
+  .list1 li h3,
+  .list2 li h3 {
+    font-size: 20px;
+    margin-right: 10px; /* Adjust the margin as per your preference */
+  }
+  
+
+.exp-edu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+  .education {
+    margin-top: 40px;
+  }
+  
+  .education h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .education ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .education li {
+    margin-bottom: 20px;
+    padding-left: 30px;
+    font-size: 18px;
+    position: relative;
+  }
+  
+  .education .bi{
+    font-size: 20px;
+  }
+  .education li:first-child{
+    font-size: 15px;
+  }
+  .education li::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .achievments {
+    margin-top: 40px;
+  }
+  
+  .achievments h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .achievments .bi{
+    font-size: 20px;
+  }
+  
+  .achievments ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .achievments li {
+    margin-bottom: 20px;
+    padding-left: 30px;
+    position: relative;
+  }
+  
+  .achievments li::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #666;
+  }
+  

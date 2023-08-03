@@ -1,0 +1,173 @@
+.skills {
+    background: url(C:\portfolio\portfolio\src\images\bg.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.skills .content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 20px;
+}
+h2{
+    padding-top: 10px;
+    color: #3a6cf4;
+}
+
+.skills .content .col-left {
+    position: relative;
+    width: 46%;
+    margin-left: 30px;
+}
+
+.skills .content .col-right {
+    position: relative;
+    width: 46%;
+}
+
+.skills .content .col-right .bar {
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.skills .content .col-right .bar .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.skills .content .col-right .bar .info span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.skills .content .col-right .bar .line {
+    position: relative;
+    width: 100%;
+    height: 15px;
+    background: #ccc;
+    border-radius: 2px;
+}
+
+.skills .content .col-right .bar .line:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 2px;
+}
+
+.skills .content .col-left .bar {
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.skills .content .col-left .bar .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.skills .content .col-left .bar .info span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.skills .content .col-left .bar .line {
+    position: relative;
+    width: 100%;
+    height: 15px;
+    background: #ccc;
+    border-radius: 2px;
+}
+
+.skills .content .col-left .bar .line:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 2px;
+}
+
+.skills .content .col-left .bar .corejava:before {
+    width: 80%;
+    background: #e45126;
+}
+
+.skills .content .col-left .bar .nodejs:before {
+    width: 60%;
+    background: #30dd6d;
+}
+
+.skills .content .col-left .bar .reactjs:before {
+    width: 65%;
+    background: #0c73b8;
+}
+
+.skills .content .col-left .bar .javascript:before {
+    width: 80%;
+    background: #30dd6d;
+}
+
+/* .skills .content .col-left .bar .linux:before {
+    width: 70%;
+    background: #30dd6d;
+} */
+
+
+.skills .content .col-left .bar .html:before {
+    width: 90%;
+    /* background: #e45126; */
+    background: #0c73b8;
+}
+
+.skills .content .col-left .bar .css:before {
+    width: 60%;
+    background: #f9f637;
+}
+
+.skills .content .col-left .bar .php:before {
+    width: 85%;
+    background: #f9f637;
+}
+
+.skills .content .col-left .bar .sql:before {
+    width: 90%;
+    background: #e45126;
+}
+/* Skills.css */
+
+/* Default styles for col-right */
+.column.col-right {
+    /* Adjust the width and other styles as per your design */
+    width: calc(100% - 50%);
+    /* Add other styles for col-right here */
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 768px) {
+    .content {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .column.col-left,
+    .column.col-right {
+      width: 100%;
+      /* Add other styles for col-left and col-right on mobile here */
+    }
+    .column.col-left{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+  }
+  

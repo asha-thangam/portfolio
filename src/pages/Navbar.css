@@ -1,0 +1,19 @@
+/* Desktop view */
+@media (min-width: 992px) {
+    .nav-item{
+        font-size: 30px;
+    }  
+    .nav-link:hover {
+      background-color: #e122b1;
+      color: #000;
+      border-radius: 4px;
+    }
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    /* Add other styles as needed */
+  }
